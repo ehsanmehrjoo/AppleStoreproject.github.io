@@ -1,0 +1,317 @@
+/* Global Styles */
+@font-face {
+  font-family: ubuntu;
+  src: url("src/fonts/Ubuntu-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: ubuntu;
+  vertical-align: top;
+}
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  overflow: hidden;
+  border-style: inset;
+  border-width: 1px;
+}
+
+nav {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 9;
+  padding: 15px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 110px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.main-title {
+  font-size: 4em;
+  text-align: center;
+  margin: 50px 0;
+}
+
+nav a:hover {
+  background-color: rgb(124, 120, 120);
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#user{
+margin-right: 25px;
+}
+img {
+  overflow: clip;
+}
+
+
+.MacBookPro h1 {
+  font-size: 40px;
+}
+
+.main-titel {
+  font-size: 4em;
+  text-align: center;
+  margin: 70px 0;
+}
+
+.top-container,
+.main-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-left {
+  display: inline-block;
+  width: 30%;
+  margin: 50px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.top-right {
+  display: inline-block;
+  width: 30%;
+  margin: 50px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.top-right img,
+.top-left img {
+  margin-bottom: 50px;
+}
+
+.top-left .slogan,
+.top-right .slogan {
+  margin: 20px 0 0;
+  font-size: 40px;
+}
+
+#compare {
+  background-color: #fafafa;
+  padding: 50px;
+}
+
+.middle-left,
+.middle-center,
+.middle-right {
+  width: 30%;
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  vertical-align: top;
+}
+
+.middle-left img#mac1 {
+  margin-bottom: 6px;
+}
+
+.middle-right img#mac3 {
+  margin-bottom: -2.2px;
+}
+
+.color-circle {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin: 25px 1px;
+  display: inline-block;
+}
+
+.color-circle-1 {
+  background-color: #abaeb3;
+}
+
+.color-circle-2 {
+  background-color: #e2e3e4;
+}
+
+.compare-item:first-child {
+  margin-top: 40px;
+}
+
+.compare-item {
+  margin-bottom: 50px;
+}
+
+.middle-left #last-item {
+  margin-bottom: 45px !important;
+}
+
+.bottom-container {
+  width: 96%;
+  margin: 1% auto 0;
+  text-align: center;
+}
+
+
+.bottom-left {
+  width: 47%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom-right {
+  width: 47%;
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bottom-item-box {
+  background-color: #f2f2f2;
+  height: 610px;
+}
+
+.bottom-item-text {
+  padding: 10%;
+}
+
+.bottom-item-text h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.bottom-item-text h3 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.bottom-item-box-image {
+  position: relative;
+  margin-top: -10px;
+}
+
+.bottom-item-text-absolute {
+  position: absolute;
+  top: 40%;
+  width: 90%;
+  padding: 5px;
+}
+.bottom-item-text-absolute h2{
+  color: white;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.bottom-item-text-absolute p{
+  color: white;
+  font-weight: bold;
+  margin: 0 auto !important;
+}
+.top {
+  position: relative;
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  line-height: 4em;
+  vertical-align: middle;
+}
+
+footer {
+  text-align: center;
+  background-color: #abaeb3;
+  padding: 50px;
+}
+
+ @media only screen and (max-width:768px) {
+
+   nav ul li {
+    max-width: 65px;
+    font-size: 14px;
+  }
+
+  nav ul li:first-child {
+    width: 50px;
+  }
+
+  nav ul li:nth-child(2) {
+    width: 45px;
+  } 
+
+  .main-title {
+    font-size: 2em;
+  }
+
+  .top-container,
+  .middle-container {
+    width: 100%;
+  }
+
+  .top-right,
+  .top-left {
+    width: 90%;
+    margin: 0 10px 30px;
+  }
+
+  .top-left .slogan,
+  .top-right .slogan {
+    font-size: 30px;
+  }
+
+  .middle-container {
+    width: 90%;
+    text-align: center;
+  }
+
+  .middle-left,
+  .middle-center,
+  .middle-right {
+    width: 92%;
+    display: block;
+    text-align: center;
+  }
+
+  #compare {
+    padding: 20px;
+  }
+
+  .bottom-left,
+  .bottom-right {
+    width: 98%;
+    display: block;
+  }
+
+  .bottom-item-box {
+    height: 488px;
+    margin: 15px 0;
+  }
+
+  .bottom-item-box-image {
+    margin: 15px 0;
+  }
+
+  .bottom-item-text-absolute {
+    top: 28%;
+  }
+
+  .bottom-item-text-absolute h2 {
+    font-size: 40px;
+  }
+} 
